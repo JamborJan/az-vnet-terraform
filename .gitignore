@@ -1,0 +1,5 @@
+/terraform/azure.conf
+/terraform/out.plan
+/terraform/.terraform.lock.hcl
+/terraform/.terraform/
+/terraform/terraform.tfvars
