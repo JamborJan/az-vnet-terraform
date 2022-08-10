@@ -96,6 +96,7 @@ This contains the output terraform is returning when done. We don't need anythin
 terraform init -backend-config=azure.conf
 ./workspacetest.sh DEV
 terraform plan -out out.plan
+terraform plan -destroy -out out.plan
 terraform apply out.plan
 ```
 
