@@ -23,7 +23,17 @@ variable "spoke_count" {
   default = 2
 }
 
+variable "dns_zone_name" {}
+
 variable "vm_user_ssh" {}
+
+variable "spoke_index" {}
+
+
+variable "hub_vnet_id" {}
+variable "hub_vnet_name" {}
+
+variable "hub_rg_name" {}
 
 variable "allowed_ip_address" {}
 
@@ -48,3 +58,4 @@ variable "tag_costcenter" {
 variable "tag_dr" {
   default = "essential"
 }
+
