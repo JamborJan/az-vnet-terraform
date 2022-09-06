@@ -1,6 +1,10 @@
+# ignore lock and tf subdirs everywhere
+.terraform.lock.hcl
+.terraform/
+
 /terraform/azure.conf
 /terraform/out.plan
-/terraform/.terraform.lock.hcl
-/terraform/.terraform/
 /terraform/terraform.tfvars
 .talismanrc
+.*.sw?
+
