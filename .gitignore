@@ -3,4 +3,5 @@
 /terraform/.terraform.lock.hcl
 /terraform/.terraform/
 /terraform/terraform.tfvars
-.talismanrc
+**/.talismanrc
+**/out.plan
